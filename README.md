@@ -46,8 +46,8 @@ Enhance the personalization of recommendations with a Content-Based Recommendati
 - Genre
 
 **Working Mechanism:**
-- Content-Based Recommendation focuses on intrinsic movie features, such as genres.
-- Understand your preferences through the genres you enjoy.
+- Content-Based Recommendation focuses on intrinsic movie features, such as Movie Cast,Director and genres.
+- Understand your preferences through the genres, favourtive cast and the director you enjoy.
 - Predict and suggest movies with similar content, adding a layer of personalization based on thematic elements.
 
 
