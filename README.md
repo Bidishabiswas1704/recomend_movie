@@ -8,33 +8,53 @@ Welcome to our Movie Recommendation System, where movie suggestions go beyond th
 
 Finding the perfect movie can be a challenge, especially for new users. Our system addresses this by seamlessly transitioning from non-personalized recommendations to advanced models. Whether you're a seasoned critic or a first-time viewer, our system adapts to your preferences.
 
-## 🎯 Key Approaches and Features
+# 🎬 Movie Recommendation System
 
-### Non-Personalized Recommendations
+## 🚀 Project Overview
 
-- **IMDB Formula for Best Movies:**
-  - Discover the cream of the crop across various genres using the renowned IMDB formula.
+Welcome to our Movie Recommendation System, where movie suggestions go beyond the ordinary. This intelligent application employs various recommendation strategies, ensuring a personalized and engaging movie-watching experience. Explore the system's capabilities, from non-personalized recommendations based on average weight to content-based recommendations tailored to your genre preferences.
 
-- **Most Commonly Watched Movie by Similar Users:**
-  - Uncover hidden gems by exploring movies loved by users with similar tastes.
+## 🔍 Recommendation Approaches
 
-### Collaborative Filtering
+### A) Simple Recommender System - Average Weight
 
-- **Finding Similar Movies Based on Ratings:**
-  - Dive into collaborative filtering, where the K Nearest Neighbors algorithm identifies movies with ratings similar to your taste.
+The Simple Recommender system offers universal movie suggestions by considering overall popularity and occasional genre preferences. This model prioritizes movies with higher popularity and critical acclaim, assuming they are more likely to be appreciated by the average audience.
 
-  **Working Mechanism:**
-  
-  Collaborative Filtering operates on the principle of user similarity. By analyzing the preferences of users with similar movie-watching histories, the system suggests movies that align with your taste. The K Nearest Neighbors algorithm measures the proximity of user preferences, enhancing your movie recommendations.
+**Implementation:**
+- Movies are sorted based on ratings and popularity.
+- Top movies from this sorted list are presented.
+- Users can specify a genre for personalized recommendations.
 
-### Content-Based Recommendation
+**Mathematical Model (IMDB's Weighted Rating Formula):**
 
-- **Taking Genres Into Account:**
-  - Elevate your movie night with content-based recommendations that consider the genres you love.
+![image](https://github.com/Bidishabiswas1704/recomend_movie/assets/140384850/28d5a9c1-c5d4-4c85-9455-46ccc9997a31)
 
-  **Working Mechanism:**
 
-  Content-Based Recommendation focuses on the intrinsic features of movies, such as genres. By understanding your preferences through the genres you enjoy, the system predicts and suggests movies with similar content. This approach adds a layer of personalization based on the thematic elements that resonate with you.
+- **v:** Number of votes for the movie
+- **m:** Minimum votes required to be listed in the chart (set at the 85th percentile)
+- **R:** Average rating of the movie
+- **C:** Mean vote across the entire dataset
+
+**Functionality:**
+- Create Top 250 movies chart.
+- Develop charts tailored to specific genres.
+
+### B) Content-Based Recommendation System
+
+Enhance the personalization of recommendations with a Content-Based Recommendation engine. This engine calculates similarities between movies using specific criteria, suggesting movies that closely resemble a particular film enjoyed by the user.
+
+**Focus Areas:**
+- Movie Overviews
+- Movie Cast
+- Director
+- Keywords
+- Genre
+
+**Working Mechanism:**
+- Content-Based Recommendation focuses on intrinsic movie features, such as genres.
+- Understand your preferences through the genres you enjoy.
+- Predict and suggest movies with similar content, adding a layer of personalization based on thematic elements.
+
 
 ## 📊 Key Aspects and Features
 - 🤖 **Content-Based Recommendation:** Discover movies similar to your favorites using advanced natural language processing and cosine similarity.
