@@ -9,7 +9,7 @@ Welcome to our Movie Recommendation System, where movie suggestions go beyond th
 Finding the perfect movie can be a challenge, especially for new users. Our system addresses this by seamlessly transitioning from non-personalized recommendations to advanced models. Whether you're a seasoned critic or a first-time viewer, our system adapts to your preferences.
 
 
-## 🔍 Recommendation Approaches
+## 🎯 Recommendation Approaches
 
 ### A) Simple Recommender System - Average Weight
 
