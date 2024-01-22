@@ -36,13 +36,13 @@ Finding the perfect movie can be a challenge, especially for new users. Our syst
 
   Content-Based Recommendation focuses on the intrinsic features of movies, such as genres. By understanding your preferences through the genres you enjoy, the system predicts and suggests movies with similar content. This approach adds a layer of personalization based on the thematic elements that resonate with you.
 
-**Key Features:**
+## 📊 Key Aspects and Features
 - 🤖 **Content-Based Recommendation:** Discover movies similar to your favorites using advanced natural language processing and cosine similarity.
 - 👑 **Popularity-Based Recommendation:** Explore trending movies based on overall popularity and user ratings.
 - 📊 **Data Analysis:** Dive into insightful visualizations exploring the world of movies, genres, and more.
 - 🌐 **Streamlit Web App:** Explore movie recommendations interactively through our Streamlit web app. Tailor your preferences, and witness the system craft a unique movie playlist just for you.
 
-**Technologies Used:**
+## 🛠️ Technologies and Techniques Used
 - 🐍 Python
 - 📊 Pandas, NumPy, Matplotlib, Seaborn
 - 🤖 Natural Language Processing with NLTK
@@ -50,12 +50,8 @@ Finding the perfect movie can be a challenge, especially for new users. Our syst
 - 🌐 Streamlit for Web App Development
 - 📡 Requests for HTTP Handling
 
-**Get Started:**
-1. 📥 Clone the repository.
-2. 🚀 Install dependencies using `pip install -r requirements.txt`.
-3. 🌐 Run the Streamlit app with `streamlit run app.py`.
 
-Feel free to explore, contribute, and enhance the movie recommendation experience. Your movie night starts here! 🍿✨
+
 ### Usage Instructions
 **Get Started:**
 1. 📥**Clone the repository:**
@@ -63,17 +59,18 @@ Feel free to explore, contribute, and enhance the movie recommendation experienc
    git clone https://github.com/Bidishabiswas1704/recomend_movie.git
    ```
 
-2. **Install dependencies:**
+2. 🚀**Install dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Run the Streamlit app:**
+3. 🌐**Deployment:**
    ```bash
    streamlit run app.py
    ```
-
-4. **Open the web browser and go to [http://localhost:8501](http://localhost:8501) to explore the Movie Recommendation System.**
+   Feel free to explore, contribute, and enhance the movie recommendation experience. Your movie night starts here! 🍿✨
+   
+5. **Open the web browser and go to [http://localhost:8501](http://localhost:8501) to explore the Movie Recommendation System.**
 
 ## 📊 Example Screenshots
 
@@ -107,6 +104,11 @@ Feel free to explore, contribute, and enhance the movie recommendation experienc
 
 Contributions are more than welcome! Feel free to open issues, propose new features, or submit pull requests to enhance the Movie Recommendation System.
 
+## Authors
+
+- [@Bidisha_Biswas](https://www.github.com/Bidishabiswas1704)
+
+
 ## 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -117,47 +119,5 @@ Enjoy an immersive movie experience tailored just for you!
 
 
 
-
-
-**Key Features:**
-- 🤖 **Content-Based Recommendation:** Discover movies similar to your favorites using advanced natural language processing and cosine similarity.
-- 👑 **Popularity-Based Recommendation:** Explore trending movies based on overall popularity and user ratings.
-- 📊 **Data Analysis:** Dive into insightful visualizations exploring the world of movies, genres, and more.
-- 🌐 **Streamlit Web App:** Experience the recommendations through an interactive and user-friendly web app powered by Streamlit.
-
-**Technologies Used:**
-- 🐍 Python
-- 📊 Pandas, NumPy, Matplotlib, Seaborn
-- 🤖 Natural Language Processing with NLTK
-- 🤖 Machine Learning with Scikit-Learn
-- 🌐 Streamlit for Web App Development
-- 📡 Requests for HTTP Handling
-
-
-
-
-
-## Authors
-
-- [@Bidisha_Biswas](https://www.github.com/Bidishabiswas1704)
-
-
-
-## Deployment
-
-To deploy this project run
-
-```bash
-  npm run deploy
-```
-
-
-## Contributing
-
-Contributions are welcome! Please follow the Contribution Guidelines.
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
 
 
