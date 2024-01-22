@@ -8,11 +8,6 @@ Welcome to our Movie Recommendation System, where movie suggestions go beyond th
 
 Finding the perfect movie can be a challenge, especially for new users. Our system addresses this by seamlessly transitioning from non-personalized recommendations to advanced models. Whether you're a seasoned critic or a first-time viewer, our system adapts to your preferences.
 
-# 🎬 Movie Recommendation System
-
-## 🚀 Project Overview
-
-Welcome to our Movie Recommendation System, where movie suggestions go beyond the ordinary. This intelligent application employs various recommendation strategies, ensuring a personalized and engaging movie-watching experience. Explore the system's capabilities, from non-personalized recommendations based on average weight to content-based recommendations tailored to your genre preferences.
 
 ## 🔍 Recommendation Approaches
 
