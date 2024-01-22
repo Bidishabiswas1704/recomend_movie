@@ -52,7 +52,7 @@ Finding the perfect movie can be a challenge, especially for new users. Our syst
 
 
 
-### Usage Instructions
+## 📄 Usage Instructions
 **Get Started:**
 1. 📥**Clone the repository:**
    ```bash
