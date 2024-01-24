@@ -87,13 +87,109 @@ Enhance the personalization of recommendations with a Content-Based Recommendati
    
 5. **Open the web browser and go to [http://localhost:8501](http://localhost:8501) to explore the Movie Recommendation System.**
 
-## 📊 Example Screenshots
+## 📊 Data Exploration and Analysis (Jupyter Notebook)
 
-![Screenshot 1](path/to/screenshot1.png)
-*Caption: Fine-tuning preferences in the Streamlit app.*
+### Step 1: Loading Data
+- Open the Jupyter Notebook (`Movie_Recommendation_System.ipynb`) to initiate the exploration and analysis of the movie dataset.
+- Follow the step-by-step instructions to load the movie data from ('tmdb_5000_movies.csv') and proceed with the analysis.
 
-![Screenshot 2](path/to/screenshot2.png)
-*Caption: A personalized movie playlist based on user preferences.*
+### Step 2: Selecting Key Features
+- Identify and select key features for the analysis, including genres, id, keywords, overview, popularity, release_date, title, vote_average, vote_count, cast, and crew.
+
+### Step 3: Cleaning Data
+- Clean the data, especially focusing on columns like genres, keywords, cast, and crew, which are in dictionary format.
+- Utilize the Abstract Syntax Trees (`.ast`) module in Python to convert dictionary literals into objects.
+- **Screenshots:**
+  - Screenshot of loaded data.
+
+  ![image](https://github.com/Bidishabiswas1704/recomend_movie/assets/140384850/cf753c38-c6b5-4775-830d-a71194e8e0b4)
+
+  - Screenshot of selected key features.
+ 
+  ![image](https://github.com/Bidishabiswas1704/recomend_movie/assets/140384850/22778c55-dd28-473c-afe0-ac900eb41216)
+
+  - Screenshot of cleaned data.
+
+  ![image](https://github.com/Bidishabiswas1704/recomend_movie/assets/140384850/c05de84f-7418-4332-a8f6-7d5ff22512c4)
+
+
+### A) Recommendation System Based on Average Weight
+
+### Step 4: Calculate Weighted Rating Components
+- Implement the calculation of all components of the weighted rating, incorporating factors like vote count, average rating, and overall popularity.
+
+### Step 5: Recommendation Based on Average
+- For the recommendation system based on average, focus on specific columns: genre, popularity, release_date, vote_average, vote_count, and weighted_average.
+
+### Step 6: Popularity-Based Recommendation
+- Arrange movies in descending order based on popularity to check for popular recommendations.
+- **Screenshots:**
+  - Screenshot of calculated weighted rating components.
+
+  ![image](https://github.com/Bidishabiswas1704/recomend_movie/assets/140384850/fe037613-a2a7-4603-aeb6-cea272eba3ef)
+
+  - Screenshot of recommendations based on average.
+
+  ![image](https://github.com/Bidishabiswas1704/recomend_movie/assets/140384850/149bd7e3-efd2-4a54-a39d-816dd5b3731e)
+
+  - Screenshot of popularity-based recommendations.
+
+  ![image](https://github.com/Bidishabiswas1704/recomend_movie/assets/140384850/c4c03d17-34d0-42cb-b784-e0ba5e3cefca)
+
+
+### Step 7: Combined Recommendation System
+- Create a new recommendation system that considers both weighted average and popularity with a 50-50 priority, forming a new column as a scorecard.
+- **Screenshots:**
+  - Screenshot of the combined recommendation system.
+
+![image](https://github.com/Bidishabiswas1704/recomend_movie/assets/140384850/e00eaecb-2314-4310-bb0e-b8f81a897998)
+
+### Step 8: Genre-Specific Recommendations
+- Explore recommendations based on particular genres.
+- **Screenshots:**
+  - Screenshot of genre-specific recommendations.
+
+![image](https://github.com/Bidishabiswas1704/recomend_movie/assets/140384850/fa2aa12b-6b60-4932-b624-535e98309b31)
+
+![image](https://github.com/Bidishabiswas1704/recomend_movie/assets/140384850/cfe2592a-2d31-4174-a650-95267727652e)
+
+
+### B) Content-Based Recommendation System
+
+### Step 9: Selecting Features for Content-Based Recommendation
+- Choose key features for the Content-Based Recommendation System, including id, title, genres, keywords, overview, cast, and director.
+
+### Step 10: Preprocessing Overview
+- Split words in the overview into individual tags and create a collection of tags from columns like genres, overview, keywords, cast, and director.
+- **Screenshots:**
+  - Screenshot of selected features for content-based recommendation.
+
+  ![image](https://github.com/Bidishabiswas1704/recomend_movie/assets/140384850/11132bf7-4d08-414d-9bfb-d7e31c3b2030)
+
+  - Screenshot of preprocessing overview.
+
+  ![image](https://github.com/Bidishabiswas1704/recomend_movie/assets/140384850/0d138c0e-8938-4ac6-ae52-7f5aaf37982c)
+
+
+### Step 11: Building Recommendation System
+- Convert each tag of a particular movie into a set of arrays and form a matrix.
+- Build a recommendation system based on the similarity of arrays by calculating the minimum distance between two pairs.
+- **Screenshots:**
+  - Screenshot of building the content-based recommendation system.
+
+  ![image](https://github.com/Bidishabiswas1704/recomend_movie/assets/140384850/4adcbea4-dbfa-457e-bd06-d32d4882a6fb)
+
+
+### Step 12: Customizing Recommendations
+- Replace 'particular movie' with the desired movie title to tailor recommendations according to user preferences.
+
+![image](https://github.com/Bidishabiswas1704/recomend_movie/assets/140384850/34eb8268-b178-4916-af00-9436da25de34)
+
+![image](https://github.com/Bidishabiswas1704/recomend_movie/assets/140384850/c71e1f2a-40e6-4d19-9568-b818b9d42a5c)
+
+
+
+Explore the notebook for a detailed walkthrough of these steps and gain insights into the world of movie recommendations!
 
 ## 📂 Directory Structure
 
