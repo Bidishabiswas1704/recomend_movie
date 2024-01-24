@@ -191,6 +191,44 @@ Enhance the personalization of recommendations with a Content-Based Recommendati
 
 Explore the notebook for a detailed walkthrough of these steps and gain insights into the world of movie recommendations!
 
+## 📊 Example Screenshots and User Guidance (Streamlit Web App)
+
+### Step 1: Opening the Streamlit Web App Interface
+![Step 1](screenshots/streamlit_screenshot1.png)
+- Open the Streamlit web app interface by running the provided command in the terminal.
+- The initial screen presents a clean and user-friendly interface.
+
+### Step 2: Choosing Recommendation Approaches
+![Step 2](screenshots/streamlit_screenshot2.png)
+- Select the recommendation approaches you would like to explore.
+
+### Step 3a: Popularity-Based Recommendation System
+![Step 3a](screenshots/streamlit_screenshot3a.png)
+- Navigate to the popularity-based recommendation system.
+- A new interface appears with the same heading.
+
+### Step 4: Choosing Genres for Recommendations
+![Step 4](screenshots/streamlit_screenshot4.png)
+- Choose the genres of your interest.
+- The system will suggest 250 movies with their posters in descending order of the scorecard within the selected genres.
+- **Screenshot:**
+  - Screenshot of the popularity-based recommendation system.
+
+### Step 3b: Content-Based Recommendation System
+![Step 3b](screenshots/streamlit_screenshot3b.png)
+- Switch to the content-based recommendation system in the select box.
+
+### Step 5: Typing Movie Title for Recommendations
+![Step 5](screenshots/streamlit_screenshot5.png)
+- Type the title of a movie, and the system will show 5 similar movie names with their posters.
+- **Screenshot:**
+  - Screenshot of the content-based recommendation system.
+
+### Recruiters and Users Note:
+- As a recruiter or user, this intuitive interface allows for easy navigation and a seamless experience.
+- Explore the power of different recommendation approaches with just a few clicks!
+- Screenshots strategically placed after each step for visual validation and guidance.
+
 ## 📂 Directory Structure
 
 ```
