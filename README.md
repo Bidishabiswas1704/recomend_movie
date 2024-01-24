@@ -113,7 +113,7 @@ Enhance the personalization of recommendations with a Content-Based Recommendati
   ![image](https://github.com/Bidishabiswas1704/recomend_movie/assets/140384850/c05de84f-7418-4332-a8f6-7d5ff22512c4)
 
 
-### A) Recommendation System Based on Average Weight
+## A) Recommendation System Based on Average Weight
 
 ### Step 4: Calculate Weighted Rating Components
 - Implement the calculation of all components of the weighted rating, incorporating factors like vote count, average rating, and overall popularity.
@@ -154,7 +154,7 @@ Enhance the personalization of recommendations with a Content-Based Recommendati
 ![image](https://github.com/Bidishabiswas1704/recomend_movie/assets/140384850/cfe2592a-2d31-4174-a650-95267727652e)
 
 
-### B) Content-Based Recommendation System
+## B) Content-Based Recommendation System
 
 ### Step 9: Selecting Features for Content-Based Recommendation
 - Choose key features for the Content-Based Recommendation System, including id, title, genres, keywords, overview, cast, and director.
