@@ -91,7 +91,7 @@ Enhance the personalization of recommendations with a Content-Based Recommendati
 
 ### Step 1: Loading Data
 - Open the Jupyter Notebook (`Movie_Recommendation_System.ipynb`) to initiate the exploration and analysis of the movie dataset.
-- Follow the step-by-step instructions to load the movie data from ('tmdb_5000_movies.csv') and proceed with the analysis.
+- Follow the step-by-step instructions to load the movie data from (`tmdb_5000_movies.csv`) and proceed with the analysis.
 
 ### Step 2: Selecting Key Features
 - Identify and select key features for the analysis, including genres, id, keywords, overview, popularity, release_date, title, vote_average, vote_count, cast, and crew.
