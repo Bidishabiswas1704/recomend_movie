@@ -194,32 +194,45 @@ Explore the notebook for a detailed walkthrough of these steps and gain insights
 ## 📊 Example Screenshots and User Guidance (Streamlit Web App)
 
 ### Step 1: Opening the Streamlit Web App Interface
-![Step 1](screenshots/streamlit_screenshot1.png)
+
+![image](https://github.com/Bidishabiswas1704/recomend_movie/assets/140384850/26f6aade-5b9d-4630-ab60-88fc70bb643a)
+
 - Open the Streamlit web app interface by running the provided command in the terminal.
 - The initial screen presents a clean and user-friendly interface.
 
 ### Step 2: Choosing Recommendation Approaches
-![Step 2](screenshots/streamlit_screenshot2.png)
+
+![image](https://github.com/Bidishabiswas1704/recomend_movie/assets/140384850/525d56b2-9fb4-488e-9aeb-c8895d893a08)
+
 - Select the recommendation approaches you would like to explore.
 
 ### Step 3a: Popularity-Based Recommendation System
-![Step 3a](screenshots/streamlit_screenshot3a.png)
+
+![image](https://github.com/Bidishabiswas1704/recomend_movie/assets/140384850/c24ecd91-5ee7-4364-af88-89c7c31317a7)
+
 - Navigate to the popularity-based recommendation system.
 - A new interface appears with the same heading.
 
 ### Step 4: Choosing Genres for Recommendations
-![Step 4](screenshots/streamlit_screenshot4.png)
+
+![image](https://github.com/Bidishabiswas1704/recomend_movie/assets/140384850/708ecfd8-0b3e-48c7-8a20-7bfac31dcf3e)
+
 - Choose the genres of your interest.
 - The system will suggest 250 movies with their posters in descending order of the scorecard within the selected genres.
 - **Screenshot:**
   - Screenshot of the popularity-based recommendation system.
 
+![image](https://github.com/Bidishabiswas1704/recomend_movie/assets/140384850/94174385-51df-46fe-8a44-dc963a7f82e3)
+
 ### Step 3b: Content-Based Recommendation System
-![Step 3b](screenshots/streamlit_screenshot3b.png)
+
+![image](https://github.com/Bidishabiswas1704/recomend_movie/assets/140384850/ba793621-5f7c-49cd-834c-4ea62fee3df8)
+
 - Switch to the content-based recommendation system in the select box.
 
 ### Step 5: Typing Movie Title for Recommendations
-![Step 5](screenshots/streamlit_screenshot5.png)
+
+
 - Type the title of a movie, and the system will show 5 similar movie names with their posters.
 - **Screenshot:**
   - Screenshot of the content-based recommendation system.
