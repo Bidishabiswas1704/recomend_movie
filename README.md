@@ -232,10 +232,14 @@ Explore the notebook for a detailed walkthrough of these steps and gain insights
 
 ### Step 5: Typing Movie Title for Recommendations
 
-
 - Type the title of a movie, and the system will show 5 similar movie names with their posters.
+
+![image](https://github.com/Bidishabiswas1704/recomend_movie/assets/140384850/a1a82086-b064-4c4b-a1b5-eceb785641a8)
+
 - **Screenshot:**
   - Screenshot of the content-based recommendation system.
+  
+![image](https://github.com/Bidishabiswas1704/recomend_movie/assets/140384850/fe71e578-0e0c-43d5-8cef-1a6813d20e1b)
 
 ### Recruiters and Users Note:
 - As a recruiter or user, this intuitive interface allows for easy navigation and a seamless experience.
@@ -258,8 +262,7 @@ Explore the notebook for a detailed walkthrough of these steps and gain insights
 ├── requirements.txt
 ├── README.md
 └── .github/
-    └── workflows/
-        └── ci_cd.yml
+    
 ```
 
 ## 🤝 Contribution
